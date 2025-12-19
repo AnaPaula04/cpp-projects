@@ -1,3 +1,0 @@
-The six numbers : 99 88 77 66 55 44
-Sum of Six numbers : 429
-The average of six numbers : 71.50
