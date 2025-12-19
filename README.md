@@ -1,122 +1,87 @@
-# C++ Academic Projects
+# C++ Projects Portfolio
 
-A collection of C++ console applications developed as part of Object-Oriented Programming (OOP) coursework 
+A collection of C++ console applications demonstrating fundamental programming concepts, data structures, and problem-solving skills developed during Object-Oriented Programming (OOP) coursework 
 
-## Projects
+## 📁 Projects
 
-### [FoodOrder](./FoodOrder)
-Self-service restaurant ordering system with automated calculations and receipt generation.
+### [ConsoleApplication](./ConsoleApplication) - File I/O Calculator
+Data processing application demonstrating file operations and statistical analysis.
 
-**Technologies:** C++, Standard I/O  
-**Features:**
-- Interactive menu ordering interface
-- Real-time price calculation
-- Formatted receipt generation with change calculation
+**Key Features:**
+- External file data input/output
+- Statistical calculations (sum, average)
+- Formatted numerical output with precision control
+- File stream management
 
-### [ConsoleApplication](./ConsoleApplication)
-File I/O program demonstrating data processing and statistical calculations.
+**Technical Stack:** C++, fstream, iomanip
 
-**Technologies:** C++, File I/O, STL  
-**Features:**
-- File-based data input
-- Statistical analysis (sum, average)
-- Formatted output generation
+---
 
-## Technical Skills Demonstrated
-- C++ Standard Library
+### [FoodOrder](./FoodOrder) - Self-Service Ordering System
+Interactive restaurant ordering application with real-time calculations and receipt generation.
+
+**Key Features:**
+- Menu-driven interface with multiple item categories
+- Dynamic price calculation and order totals
+- Automated receipt generation with change calculation
+- Input validation and user-friendly prompts
+
+**Technical Stack:** C++, iostream, string manipulation
+
+---
+
+## 🛠️ Technical Skills
+
+**Programming Concepts:**
+- Object-oriented programming fundamentals
+- Control flow and conditional logic
+- Data type management and type casting
+- Memory management
+
+**C++ Features:**
+- Standard Template Library (STL)
 - File I/O operations
-- Data validation and processing
+- Stream formatting and manipulation
 - Console-based user interfaces
-- Formatted output generation
 
-## Building and Running
+**Software Development:**
+- Version control with Git/GitHub
+- Code documentation
+- Testing and debugging
+- Cross-platform compilation
 
-Each project contains its own README with specific compilation and execution instructions.
+## 🚀 Getting Started
 
-**General compilation:**
+### Prerequisites
+- C++ compiler (g++, clang, or MSVC)
+- Terminal/Command Line access
+
+### Building Projects
+
+Navigate to any project directory and compile:
 ```bash
-cd ~/ANA_PROJECTS/cpp-projects/FoodOrder
-
-cat > README.md << 'EOF'
-# FoodOrder - Self-Service Ordering System
-
-A C++ console application implementing a self-service restaurant ordering system with real-time pricing and receipt generation.
-
-## Overview
-
-This application simulates a food service kiosk, allowing users to place orders for multiple menu items and receive itemized receipts with automatic change calculation.
-
-## Features
-
-- **Interactive Ordering:** User-friendly console interface for order placement
-- **Dynamic Pricing:** Real-time calculation of order totals
-- **Receipt Generation:** Formatted receipts with itemized pricing
-- **Change Calculation:** Automatic payment processing and change computation
-
-## Menu Items
-
-| Item | Price |
-|------|-------|
-| Pizza (per slice) | $2.75 |
-| Soft Drink (per cup) | $2.00 |
-| Chips (per bag) | $1.50 |
-| Salad (per order) | $4.25 |
-
-## Technical Implementation
-
-**Language:** C++ (C++11)  
-**Libraries:** iostream, string  
-**Concepts Demonstrated:**
-- Variable declaration and initialization
-- User input handling
-- Arithmetic operations
-- Formatted console output
-- Control flow
-
-## Building and Running
-
-### Compilation
-```bash
-g++ FoodOrder.cpp -o FoodOrder
+cd [project-name]
+g++ [source-file].cpp -o [executable-name]
+./[executable-name]
 ```
 
-### Execution
-```bash
-./FoodOrder
-```
+Each project includes detailed compilation instructions in its respective README.
 
-### Sample Output
-```
-********************************************************
-*****       Welcome to Self-Service System         *****
-********************************************************
-Please enter your Name:  Ana
-Pizza(slices):  3
-Drink(cups):  2
-Chips(bags):  1
-Salad(orders):  1
-Please enter amount you pay:  25
+## 📚 Course Information
 
-RECEIPT:
-========================================================
-Name:                        Ana
- Product Description:        Qty                Price
---------------------------------------------------------
- Pizza (slices):             3                   $8.25
- Soft drinks (cups):         2                   $4
- Chips (bags):               1                   $1.5
- Salad (orders):             1                   $4.25
----------------------------------------------------------
- Total Order:                                    $18
----------------------------------------------------------
- Cash:                       $25
- Change:                     $7
-  ****** THANKS ******
-```
+**Course:** CIS142 - Computer Programming II   
+**Semester:** Fall 2022  
+**Topics Covered:** C++ fundamentals, data structures, file I/O, problem-solving
 
-## Development Information
+## 👤 Author
 
-**Assignment:** Lab 1  
-**Course:** CIS142 - Computer Programming II  
-**Date:** September 15, 2022  
-**Author:** Ana McCullagh
+**Ana McCullagh**  
+Computer Science Graduate | Northeastern Illinois University  
+Backend Software Engineer
+
+[GitHub](https://github.com/AnaPaula04) | [LinkedIn](www.linkedin.com/in/ana-mccullagh)
+
+## 📄 License
+
+These projects are part of academic coursework and are available for educational reference.
+
