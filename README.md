@@ -1,6 +1,6 @@
 # C++ Academic Projects
 
-A collection of C++ console applications developed as part of CIS142 coursework at Northeastern Illinois University.
+A collection of C++ console applications developed as part of Object-Oriented Programming (OOP) coursework 
 
 ## Projects
 
