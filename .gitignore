@@ -1,34 +1,19 @@
-# Compiled executables (files, not folders)
-*.out
-**/FileIO
-**/File_IO
+# Compiled executables
 **/FoodOrder
-**/FoodOrder1
-
-# Output files
-Result.txt
-
-# Compiled files
+**/FileIO
+*.out
 *.exe
-*.obj
 *.o
-*.ilk
-*.pdb
 
 # VS Code
 .vscode/
 .DS_Store
 
 # Visual Studio
-*.vcxproj
-*.vcxproj.*
+*.vcxproj*
 *.sln
 *.user
 x64/
 Debug/
 Release/
 .vs/
-
-# Python
-.venv/
-__pycache__/
