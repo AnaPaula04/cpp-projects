@@ -1,9 +1,9 @@
-# Compiled executables
+# Compiled executables (files, not folders)
 *.out
-FileIO
-File_IO
-FoodOrder
-FoodOrder1
+**/FileIO
+**/File_IO
+**/FoodOrder
+**/FoodOrder1
 
 # Output files
 Result.txt
